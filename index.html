@@ -12,42 +12,61 @@
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  
   <!-- Custom styles for this template -->
   <link href="css/modern-business.css" rel="stylesheet">
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
-
+	
 </head>
 
 <body>
-
+  
+	<div class="top-contacts d-none d-lg-block">
+		<div class="container">
+			<div class="row">
+				<div class="col-xl-12 col-lg-12">
+					<div class="row">
+						<div class="col-md-3"><i class="fa fa-phone margin-right-10px"></i> Email Us: test@email.com </div>
+						<div class="col-md-3"><i class="fa fa-envelope-o margin-right-10px"></i> Call: 127838903</div>
+						<div class="col-md-3"><i class="fa fa-map-marker margin-right-10px"></i> Location: Manila, Philippines</div>
+						<div class="col-md-3"><i class="fa fa-map-marker margin-right-10px"></i> Stay Connected: <span class="social"> <a target="_blank" href="http://facebook.com" class="fa fa-facebook-official" aria-hidden="true"></a> </span></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
   <!-- Navigation -->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="index.html">Vitellius</a>
-      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Services</a>
-          </li>
-		  <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <header>
+	<div>
+		<nav class="navbar navbar-expand-lg navbar-light bg-white">
+			
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Vitellius</a>
+				<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item">
+						<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#services">Services</a>
+						</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#about">About Us</a>
+						</li>
+						<li class="nav-item">
+						<a class="nav-link" href="#contact">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<div class="topnav-border-style"></div>
+	</div>
+	
+	<header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -91,7 +110,7 @@
   <!-- Page Content -->
   <div class="container">
 
-    <section>
+    <section id="services">
 		<h1 class="my-4">
 			<center>
 				<h1>Welcome to Vitellius</h1>
@@ -140,22 +159,12 @@
 			<a id="demo01" class="services-showAll" href="#animatedModal">Show All</a>
 		  </div>
 		</div>
-		<!--DEMO01-->
-    <div id="animatedModal">
-        <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-        <div class="close-animatedModal"> 
-            CLOSE MODAL
-        </div>
-            
-        <div class="modal-content">
-                  <!--Your modal content goes here-->
-        </div>
-    </div>
+		
 		<!-- /.row -->
 	</section>
 	
 	
-    <section>
+    <section id="about">
 	<br />
 	<br />
 	<!-- Portfolio Section -->
@@ -179,7 +188,7 @@
 	
 	
 	
-    <section>
+    <section id="contact">
 	<br />
 	<br />
 	<h2>Contact US</h2>
@@ -259,10 +268,6 @@
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="vendor/animatedModal/animatedModal.min.js"></script>
-  
-  <script>
-	$("#demo01").animatedModal();
-  </script>
 
 </body>
 
