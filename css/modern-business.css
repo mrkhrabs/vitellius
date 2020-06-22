@@ -18,7 +18,11 @@ section {
 .topnav-border-style{
 	width: 100%;
     border-bottom: 10px solid #0d5baf;
-    border-top: 3px solid #fff;
+    border-top: 2px solid #fff;
+}
+
+.logo-header{
+	height: 50px;
 }
 
 .top-contacts{
@@ -85,4 +89,88 @@ section {
     text-decoration: none;
 	background-color: #0d66c6;
     color: #fff;
+}
+
+
+
+
+
+/********	Services 	*********/
+.services-company{
+	font-size: 30px;
+    font-weight: bold;
+}
+
+.svc-offered{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.svc-offered h3, .svc-keyResource h3{
+	color: #0d5baf;
+	border-bottom: 2px solid #6c757d;
+}
+
+.svc-offered li i, .svc-keyResource li i{
+	color: #0d5baf;
+}
+
+.svc-keyResource{
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.svc-img{
+	height: 150px;
+}
+
+
+.aboutUS .services-company{
+	font-size: 30px;
+    font-weight: bold;
+	color:#0d5baf;
+}
+
+.aboutUS h3{
+	color: #0d5baf;
+	border-bottom: 2px solid #6c757d;
+}
+
+.abt-accreditations {
+	margin-top: 20px;
+	margin-bottom: 25px;
+}
+
+.abt-accreditations p i{
+	color: #0d5baf;
+}
+
+
+
+
+
+
+
+
+
+/*********FOOTER*********/
+
+footer{
+	color: #fff;
+}
+
+footer p{
+	margin-bottom: 0;
+}
+
+.logo-ftr{ 
+	height: 110px;
+}
+
+.ftr-section{
+	margin-bottom: 10px;
+}
+
+.ftr-section-title{
+	color: #007bff;
 }
